@@ -62,15 +62,12 @@ export default function SignUp() {
 								</div>
 								
 								<button className="sign__btn" type="button">Sign up</button>
-
 								{/* <span className="sign__delimiter">or</span>
-
 								<div className="sign__social">
 									<a className="fb" href="#"><i className="fab fa-facebook-f"></i></a>
 									<a className="tw" href="#"><i className="fab fa-twitter"></i></a>
 									<a className="gl" href="#"><i className="fab fa-google"></i></a>
 								</div> */}
-
 								<span className="sign__text">Already have an account? <Link to="/signin">Sign in!</Link></span>
 							</form>
 						</div>

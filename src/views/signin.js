@@ -16,7 +16,6 @@ export default function SignIn() {
   return(
     <>
     <main className="main">
-
       <div className="breadcrumb-area">
           <div className="container">
               <div className="breadcrumb-wrapper">
@@ -54,14 +53,6 @@ export default function SignIn() {
               </div>
               
               <button className="sign__btn" type="button">Sign in</button>
-
-              {/* <span className="sign__delimiter">or</span>
-
-              <div className="sign__social">
-                <a className="fb" href="#"><i className="fab fa-facebook-f"></i></a>
-                <a className="tw" href="#"><i className="fab fa-twitter"></i></a>
-                <a className="gl" href="#"><i className="fab fa-google"></i></a>
-              </div> */}
 
               <span className="sign__text">Don't have an account? <Link to='/signup'>Sign up!</Link></span>
 
