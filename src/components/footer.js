@@ -13,21 +13,6 @@ export default function Footer() {
               <p className="footer__tagline">
                 We are many variations of passages of orem psum available but the majority have suffered alteration in some form by injected humour randomised words which look even. 
               </p>
-
-              {/* <div className="footer__lang">
-                <a className="footer__lang-btn" href="#" role="button" id="dropdownLang" data-bs-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  <img src="assets/img/flags/uk.svg" alt=""/>
-                  <span>English</span>
-                </a>
-
-                <ul className="dropdown-menu footer__lang-dropdown" aria-labelledby="dropdownLang">
-                  <li><a href="#"><img src="assets/img/flags/uk.svg" alt=""/><span>English</span></a></li>
-                  <li><a href="#"><img src="assets/img/flags/spain.svg" alt=""/><span>Spanish</span></a></li>
-                  <li><a href="#"><img src="assets/img/flags/russia.svg" alt=""/><span>Russian</span></a></li>
-                  <li><a href="#"><img src="assets/img/flags/china.svg" alt=""/><span>Chinese</span></a></li>
-                </ul>
-              </div> */}
             </div>
 
             <div className="col-md-3">
