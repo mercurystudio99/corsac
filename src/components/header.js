@@ -54,7 +54,6 @@ export default function Header() {
             <Link to="/">
               <img src="assets/img/logo/logo-light.png" alt=""/>
             </Link>
-            
           </div>
 
           <form action="#" className="header__search">
@@ -89,11 +88,9 @@ export default function Header() {
               <li className="header__nav-item">
                 <Link to='/activity' className='header__nav-link' onClick={show_hide}>Activity</Link>
               </li>
-              
               <li className="header__nav-item">
                 <Link to='/about' className='header__nav-link' onClick={show_hide}>About us</Link>
               </li>
-              
               {
                 walletState.connected ? <></>:
                   <li className="header__nav-item">
