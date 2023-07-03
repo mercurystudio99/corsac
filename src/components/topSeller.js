@@ -153,7 +153,6 @@ export default function TopSeller() {
 					</div>
 				</div>
 			</div>
-
-		</section>
+	</section>
   )
 }
